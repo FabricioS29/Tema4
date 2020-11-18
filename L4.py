@@ -19,7 +19,7 @@ t = np.linspace(0, t_final, T)
 N = 10
 W_t = np.empty((N, len(t)))	# N funciones del tiempo x(t) con T puntos
 
-# Creación de las muestras del proceso x(t) (A y Z independientes)
+# Creación de las muestras del proceso x(t) (X y Y independientes)
 for i in range(N):
 	X = vaX.rvs()
 	Y = vaY.rvs()
