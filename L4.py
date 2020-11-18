@@ -36,9 +36,9 @@ E = 0*t
 plt.plot(t, E, '-.', lw=4)
 
 # Mostrar las realizaciones, y su promedio calculado y teórico
-plt.title('Realizaciones del proceso aleatorio $X(t)$')
+plt.title('Realizaciones del proceso aleatorio $W(t)$')
 plt.xlabel('$t$')
-plt.ylabel('$x_i(t)$')
+plt.ylabel('$w_i(t)$')
 plt.show()
 
 # T valores de desplazamiento tau
